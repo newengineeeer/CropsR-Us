@@ -15,14 +15,6 @@ import numpy as np
 from sklearn import linear_model
 import pickle
 
-db=mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="password",
-    database="hackathon"
-)
-mycursor=db.cursor()
-
 
 class Ui_loginform(object):
     def setupUi(self, loginform):
